@@ -1,6 +1,8 @@
 $washed-green: #26A65B
 $washed-blue: #4183D7
 
+$hover-blue: rgba(65, 131, 215, .8)
+
 $title-stack: 'News Cycle', sans-serif
 $subtitle-stack: 'Open Sans', sans-serif
 
@@ -16,6 +18,9 @@ body
     position: fixed
     top: 0
     left: 0
+    display: flex
+    flex-direction: column
+    justify-content: space-between
 
 .sidebar-card
     margin: 10px
@@ -30,3 +35,35 @@ body
     h5
         font-family: $subtitle-stack
         margin-top: 0
+
+    img
+        display: block
+        width: 120px
+        border-radius: 100%
+        margin: 0 auto
+
+.sidebar-nav
+    flex-grow: 2
+
+    ul
+        list-style-type: none
+        margin-left: -20px
+
+    li
+        font-family: $title-stack
+
+    a
+        color: #000
+        text-decoration: none
+
+    a:hover
+        color: #7a7a7a
+
+    h5
+        font-family: $subtitle-stack
+
+.project-item a
+    color: $washed-blue
+
+.project-item a:hover
+    color: $hover-blue
