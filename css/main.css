@@ -57,7 +57,7 @@ h3 {
 
 .content-card {
   border-radius: 5px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: row;
   width: 90%;
@@ -68,7 +68,10 @@ h3 {
   background: #CECECE;
   border-radius: 5px 0 0 5px;
   flex-basis: 30%;
-  padding: 25px 10px; }
+  padding: 25px 10px;
+  background-image: url("../img/chase_andrea_hiking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
   .card-image img {
     display: block;
     width: 100%;
@@ -80,11 +83,11 @@ h3 {
 
 .card-text {
   background: #FFF;
-  border-left: 1px solid #000;
   padding: 20px;
   border-radius: 0 5px 5px 0;
   flex-basis: 70%; }
   .card-text h2 {
+    font-size: 2.5em;
     border-bottom: 2px solid #4183D7;
     padding-bottom: 10px;
     margin-bottom: 10px; }
