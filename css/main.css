@@ -1,6 +1,7 @@
 body {
   background-image: linear-gradient(to right, #26A65B, #4183D7);
-  padding-left: 260px; }
+  padding-left: 260px;
+  height: 100vh; }
 
 h2,
 h3 {
@@ -72,14 +73,6 @@ h3 {
   background-image: url("../img/chase_andrea_hiking.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
-  .card-image img {
-    display: block;
-    width: 100%;
-    vertical-align: center;
-    border-radius: 3px; }
-  .card-image p {
-    font-size: .9em;
-    font-style: italic; }
 
 .card-text {
   background: #FFF;
@@ -91,3 +84,14 @@ h3 {
     border-bottom: 2px solid #4183D7;
     padding-bottom: 10px;
     margin-bottom: 10px; }
+  .card-text p {
+    margin: 20px 0; }
+
+.about-card .card-image {
+  background-image: url("../img/chase_andrea_hiking.jpg"); }
+
+.broadsheet-card .card-image {
+  background-image: url("../img/chase_andrea_hiking.jpg"); }
+
+.other-card .card-image {
+  background-image: url("../img/chase_andrea_hiking.jpg"); }
