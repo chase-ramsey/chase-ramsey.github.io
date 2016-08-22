@@ -44,11 +44,15 @@ h3 {
     font-family: "News Cycle", sans-serif; }
   .sidebar-nav a {
     color: #000;
-    text-decoration: none; }
+    text-decoration: none;
+    position: relative; }
   .sidebar-nav a:hover {
     color: #7a7a7a; }
   .sidebar-nav h5 {
     font-family: "Open Sans", sans-serif; }
+
+.glyphicon-sunglasses {
+  color: #26A65B; }
 
 .project-item a {
   color: #4183D7; }
