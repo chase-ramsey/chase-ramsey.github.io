@@ -23,17 +23,11 @@ h3 {
   margin: 10px;
   padding: 10px; }
   .sidebar-card h3 {
-    border-bottom: 2px solid #4183D7;
     margin: 0 0 5px 0;
     padding: 5px 0; }
   .sidebar-card h5 {
     font-family: "Open Sans", sans-serif;
     margin-top: 0; }
-  .sidebar-card img {
-    display: block;
-    width: 120px;
-    border-radius: 100%;
-    margin: 0 auto; }
 
 .sidebar-nav {
   flex-grow: 2; }
@@ -59,6 +53,24 @@ h3 {
 
 .project-item a:hover {
   color: rgba(65, 131, 215, 0.8); }
+
+.sidebar-title h3 {
+  border-bottom: 2px solid #4183D7; }
+
+.sidebar-title img {
+  display: block;
+  width: 120px;
+  border-radius: 100%;
+  margin: 0 auto; }
+
+.sidebar-contact {
+  margin-bottom: 50px; }
+  .sidebar-contact p {
+    font-size: .9em; }
+  .sidebar-contact img {
+    width: 20px;
+    display: inline;
+    margin-right: 10px; }
 
 .content-card {
   border-radius: 5px;
