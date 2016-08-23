@@ -1,7 +1,7 @@
 $washed-green: #26A65B
 $washed-blue: #4183D7
 
-$hover-blue: rgba(65, 131, 215, .8)
+// $hover-blue: rgba(65, 131, 215, .8)
 
 $title-stack: 'News Cycle', sans-serif
 $subtitle-stack: 'Open Sans', sans-serif
@@ -10,6 +10,7 @@ body
     background-image: linear-gradient(to right, $washed-green, $washed-blue)
     padding-left: 260px
     height: 100vh
+    overflow: scroll
 
 h2,
 h3
@@ -58,16 +59,13 @@ h3
         color: #7a7a7a
 
     h5
-        font-family: $subtitle-stack
+        font-family: sans-serif
+        margin-top: 30px
+        color: $washed-blue
 
 .glyphicon-sunglasses
     color: $washed-green
-
-.project-item a
-    color: $washed-blue
-
-.project-item a:hover
-    color: $hover-blue
+    display: none
 
 .sidebar-title
     h3
@@ -91,28 +89,17 @@ h3
     margin-right: 10px
 
 .content-card
-    border-radius: 5px
     box-shadow: 0 5px 15px rgba(0,0,0,.3)
-    display: flex
-    flex-direction: row
     width: 90%
     margin: auto
-    margin-top: 25vh
-    // font-size: 1.15em
+    margin-bottom: 50px
 
 .card-image
-    background: #CECECE
-    border-radius: 5px 0 0 5px
-    flex-basis: 30%
-    padding: 25px 10px
-    background-size: cover
-    background-repeat: no-repeat
+    background: #FFF
 
 .card-text
     background: #FFF
     padding: 20px
-    border-radius: 0 5px 5px 0
-    flex-basis: 70%
 
     h2
         font-size: 2.5em
@@ -124,16 +111,54 @@ h3
         margin: 20px 0
 
 .about-card
+    display: flex
+    flex-direction: row
+    margin-top: 25vh
 
     .card-image
         background-image: url('../img/chase_andrea_hiking.jpg')
+        background-size: cover
+        background-repeat: no-repeat
+        border-radius: 3px 0 0 3px
+        flex-basis: 30%
 
-.broadsheet-card
+    .card-text
+        border-radius: 0 3px 3px 0
+        flex-basis: 70%
+
+.skills-card
+    .content-card
+        @extend .about-card
+        margin-top: 50px
+        margin-bottom: 50px
 
     .card-image
-        background-image: url('../img/broadsheet.jpg')
+        order: 2
 
-.other-card
+    .coding-image
+        background-image: url('../img/panoramical_wireframe.jpg') !important
+
+    .writing-image
+        background-image: url('../img/panoramical_balloons.jpg') !important
+
+    .teaching-image
+        background-image: url('../img/panoramical_line_lights.jpg') !important
+
+.project-card
+    @extend .content-card
+    display: flex
+    flex-direction: column
+    margin-top: 7vh
+
+    .card-text
+        border-radius: 3px 3px 0 0
 
     .card-image
-        background-image: url('../img/chase_andrea_hiking.jpg')
+        border-radius: 0 0 3px 3px
+        padding: 20px
+
+        img
+            border-radius: 3px
+            border: 1px solid #CECECE
+            box-shadow: 0 5px 10px rgba(0,0,0,.2)
+            width: 100%
