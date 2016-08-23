@@ -109,7 +109,11 @@ h3 {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+.skills-card .card-text {
+  border-radius: 3px 0 0 3px !important; }
+
 .skills-card .card-image {
+  border-radius: 0 3px 3px 0 !important;
   order: 2; }
 
 .skills-card .coding-image {
