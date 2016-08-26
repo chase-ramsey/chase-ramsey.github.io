@@ -1,0 +1,141 @@
+body {
+  background-image: linear-gradient(to right, #26A65B, #4183D7);
+  padding-left: 260px;
+  height: 100vh;
+  overflow: scroll; }
+
+h2,
+h3 {
+  font-family: "News Cycle", sans-serif; }
+
+.sidebar {
+  background: #FFF;
+  height: 100vh;
+  width: 250px;
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.sidebar-card {
+  margin: 10px;
+  padding: 10px; }
+  .sidebar-card h3 {
+    margin: 0 0 5px 0;
+    padding: 5px 0; }
+  .sidebar-card h5 {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0; }
+
+.sidebar-nav {
+  flex-grow: 2; }
+  .sidebar-nav ul {
+    list-style-type: none;
+    margin-left: -20px; }
+  .sidebar-nav li {
+    font-family: "News Cycle", sans-serif; }
+  .sidebar-nav a {
+    color: #000;
+    text-decoration: none;
+    position: relative; }
+  .sidebar-nav a:hover {
+    color: #7a7a7a; }
+  .sidebar-nav h5 {
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: #4183D7; }
+
+.glyphicon-sunglasses {
+  color: #26A65B;
+  display: none; }
+
+.sidebar-title h3 {
+  border-bottom: 2px solid #4183D7; }
+
+.sidebar-title img {
+  display: block;
+  width: 120px;
+  border-radius: 100%;
+  margin: 0 auto; }
+
+.sidebar-contact {
+  margin-bottom: 50px; }
+  .sidebar-contact p {
+    font-size: .9em; }
+
+.icon {
+  width: 20px;
+  display: inline;
+  margin-right: 10px; }
+
+.content-card, .project-card {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px; }
+
+.card-image {
+  background: #FFF; }
+
+.card-text {
+  background: #FFF;
+  padding: 20px; }
+  .card-text h2 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #4183D7;
+    padding-bottom: 10px;
+    margin-bottom: 10px; }
+  .card-text p {
+    margin: 20px 0; }
+
+.about-card, .skills-card .content-card, .skills-card .project-card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25vh; }
+  .about-card .card-image, .skills-card .content-card .card-image, .skills-card .project-card .card-image {
+    background-image: url("../img/chase_andrea_hiking.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3px 0 0 3px;
+    flex-basis: 30%; }
+  .about-card .card-text, .skills-card .content-card .card-text, .skills-card .project-card .card-text {
+    border-radius: 0 3px 3px 0;
+    flex-basis: 70%; }
+
+.skills-card .content-card, .skills-card .project-card {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.skills-card .card-text {
+  border-radius: 3px 0 0 3px !important; }
+
+.skills-card .card-image {
+  border-radius: 0 3px 3px 0 !important;
+  order: 2; }
+
+.skills-card .coding-image {
+  background-image: url("../img/panoramical_wireframe.jpg") !important; }
+
+.skills-card .writing-image {
+  background-image: url("../img/panoramical_balloons.jpg") !important; }
+
+.skills-card .teaching-image {
+  background-image: url("../img/panoramical_line_lights.jpg") !important; }
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7vh; }
+  .project-card .card-text {
+    border-radius: 3px 3px 0 0; }
+  .project-card .card-image {
+    border-radius: 0 0 3px 3px;
+    padding: 20px; }
+    .project-card .card-image img {
+      border-radius: 3px;
+      border: 1px solid #CECECE;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      width: 100%; }
