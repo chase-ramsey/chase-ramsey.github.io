@@ -1,5 +1,4 @@
 // Hide content/project cards initially
-$('.about-card').hide()
 $('.skills-card').hide()
 $('.broadsheet-card').hide()
 $('.other-card').hide()
