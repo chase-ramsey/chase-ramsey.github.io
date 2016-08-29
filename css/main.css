@@ -8,6 +8,10 @@ h2,
 h3 {
   font-family: "News Cycle", sans-serif; }
 
+hr {
+  height: 2px;
+  background: #4183D7; }
+
 .sidebar {
   background: #FFF;
   height: 100vh;
@@ -90,8 +94,19 @@ h3 {
     margin-bottom: 10px; }
   .card-text p {
     margin: 20px 0; }
-  .card-text .feature-list {
-    margin: 50px; }
+
+.feature-container {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row; }
+  .feature-container h4 {
+    font-size: 1.5em; }
+
+.feature-list {
+  margin: 20px;
+  width: 50%; }
+  .feature-list p {
+    margin: 10px 0; }
 
 .about-card, .skills-card .content-card, .skills-card .project-card {
   display: flex;
