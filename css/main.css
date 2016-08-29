@@ -90,6 +90,8 @@ h3 {
     margin-bottom: 10px; }
   .card-text p {
     margin: 20px 0; }
+  .card-text .feature-list {
+    margin: 50px; }
 
 .about-card, .skills-card .content-card, .skills-card .project-card {
   display: flex;

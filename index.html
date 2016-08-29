@@ -35,7 +35,6 @@
                     <ul>
                         <li><h4><a href="#" class="first-card" show=".about-card">About Me &nbsp;&nbsp;<span class="glyphicon glyphicon-sunglasses"></a></h4></li>
                         <li><h4><a href="#" show=".skills-card">Skills &nbsp;&nbsp;<span class="glyphicon glyphicon-sunglasses"></a></h4></li>
-                        <li><h4><a href="#" show=".intro-card">Back to Intro</a></h4></li>
                         <li><h5>Projects</h5></li>
                         <li><h4><a href="#" show=".broadsheet-card">Broadsheet &nbsp;&nbsp;<span class="glyphicon glyphicon-sunglasses"></span></a></h4></li>
                         <li><h4><a href="#" show=".other-card">Full-stack capstone &nbsp;&nbsp;<span class="glyphicon glyphicon-sunglasses"></a></h4></li>
@@ -129,22 +128,38 @@
             <div class="card-text">
                 <h2>Broadsheet</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat dui dolor. In a maximus dolor, quis dapibus erat. Nam malesuada elit eget ex varius, id tristique orci tincidunt. Integer pretium suscipit pulvinar. Vestibulum rhoncus, orci non varius sodales, sem sapien posuere metus, id vulputate risus lacus at enim. In hac habitasse platea dictumst. Nullam sit amet blandit nunc. Quisque consectetur, dui a efficitur luctus, lorem dolor porta urna, a consequat ante mauris at purus. Suspendisse potenti.
-                </p>
-                <p>
-                    Maecenas pharetra feugiat odio, id blandit urna faucibus quis. Vivamus sollicitudin et nisi at pharetra. Praesent eros felis, dignissim at consequat a, sodales vitae lectus. Nulla facilisi. Mauris ut facilisis neque. Etiam vel interdum tortor. Sed tristique quam ac nunc pulvinar dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                    Broadsheet requests up-to-date RSS feeds from a handful of major media outlets, parses the resulting XML documents, and displays the fetched articles in the browser. All users start with the same basic feeds, but users can also add custom feeds by submitting a simple form. AngularJS structures user interactions with the app—such as article rendering, topic filters, and user comments—and Firebase is used to store persistent application and user data.
                 </p>
                 <p>
                     <img class="icon" src="img/mark-github.svg">
                     <a href="https://github.com/chase-ramsey/broadsheet" target="_blank">Github repository</a>
                 </p>
-                <p>
+                <!-- <p>
                     <img class="icon" src="img/rocket.svg">
                     <a href="#" target="_blank">Launched app</a>
-                </p>
-            </div>
-            <div class="card-image">
-                <img src="img/broadsheet-full.jpg">
+                </p> -->
+                <h3>Features</h3>
+                <div class="card-image">
+                    <img src="img/broadsheet-full.jpg">
+                </div>
+                <div class="feature-list">
+                    <h4>General</h4>
+                        <ul>
+                            <li>Read the 10 latest articles posted by several major media websites, including CNN, the New York Times, Pitchfork, and The Verge</li>
+                            <li>Filter all news by topic with the dropdown in the navigation bar</li>
+                            <li>Use the search box to look for keywords in your article results</li>
+                            <li>See only news from a specific outlet by clicking its title on any article card</li>
+                            <li>Click the body of an article to bring up its spotlight view, which shows more text and images for the article (where available)</li>
+                            <li>Each article title is linked to the original story—check out the full article at the outlet's website!</li>
+                        </ul>
+                    <h4>User</h4>
+                        <ul>
+                            <li>Subscribe to any of the basic feeds to site provides to get articles catered more to your interests</li>
+                            <li>Create custom feeds using the RSS subscribe link from your favorite sites</li>
+                            <li>Talk about stories with other users in the comment section of an article's spotlight view</li>
+                            <li>Save article results for further reading later, along with the conversation happening in the comments</li>
+                        </ul>
+                </div>
             </div>
         </div> <!-- End Broadsheet card -->
 
