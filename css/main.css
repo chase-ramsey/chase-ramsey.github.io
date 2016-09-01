@@ -102,7 +102,11 @@ hr {
     font-size: 1.5em; }
 
 .feature-list {
+  background: #CECECE;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
   margin: 20px;
+  padding: 20px;
   width: 50%; }
   .feature-list dt {
     font-size: 1.2em;
