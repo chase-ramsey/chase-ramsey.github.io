@@ -37,8 +37,7 @@ hr {
 .sidebar-nav {
   flex-grow: 2; }
   .sidebar-nav ul {
-    list-style-type: none;
-    margin-left: -20px; }
+    padding-left: 20px; }
   .sidebar-nav li {
     font-family: "News Cycle", sans-serif; }
   .sidebar-nav a {
@@ -105,15 +104,18 @@ hr {
 .feature-list {
   margin: 20px;
   width: 50%; }
-  .feature-list p {
-    margin: 10px 0; }
+  .feature-list dt {
+    font-size: 1.2em;
+    margin-bottom: 10px; }
+  .feature-list dd {
+    margin-bottom: 10px; }
 
 .about-card, .skills-card .content-card, .skills-card .project-card {
   display: flex;
   flex-direction: row;
   margin-top: 25vh; }
   .about-card .card-image, .skills-card .content-card .card-image, .skills-card .project-card .card-image {
-    background-image: url("../img/chase_andrea_hiking.jpg");
+    background-image: url("../img/chase_book.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 3px 0 0 3px;
