@@ -8,6 +8,10 @@ h2,
 h3 {
   font-family: "News Cycle", sans-serif; }
 
+hr {
+  height: 2px;
+  background: #4183D7; }
+
 .sidebar {
   background: #FFF;
   height: 100vh;
@@ -33,8 +37,7 @@ h3 {
 .sidebar-nav {
   flex-grow: 2; }
   .sidebar-nav ul {
-    list-style-type: none;
-    margin-left: -20px; }
+    padding-left: 20px; }
   .sidebar-nav li {
     font-family: "News Cycle", sans-serif; }
   .sidebar-nav a {
@@ -91,12 +94,32 @@ h3 {
   .card-text p {
     margin: 20px 0; }
 
+.feature-container {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row; }
+  .feature-container h4 {
+    font-size: 1.5em; }
+
+.feature-list {
+  background: #CECECE;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  margin: 20px;
+  padding: 20px;
+  width: 50%; }
+  .feature-list dt {
+    font-size: 1.2em;
+    margin-bottom: 10px; }
+  .feature-list dd {
+    margin-bottom: 10px; }
+
 .about-card, .skills-card .content-card, .skills-card .project-card {
   display: flex;
   flex-direction: row;
   margin-top: 25vh; }
   .about-card .card-image, .skills-card .content-card .card-image, .skills-card .project-card .card-image {
-    background-image: url("../img/chase_andrea_hiking.jpg");
+    background-image: url("../img/chase_book.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 3px 0 0 3px;
