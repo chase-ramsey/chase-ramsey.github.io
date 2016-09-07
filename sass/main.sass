@@ -1,8 +1,5 @@
 $washed-green: #26A65B
 $washed-blue: #4183D7
-$light-grey: #CECECE
-
-// $hover-blue: rgba(65, 131, 215, .8)
 
 $title-stack: 'News Cycle', sans-serif
 $subtitle-stack: 'Open Sans', sans-serif
@@ -16,10 +13,6 @@ body
 h2,
 h3
     font-family: $title-stack
-
-hr
-    height: 2px
-    background: $washed-blue
 
 .sidebar
     background: #FFF
@@ -123,8 +116,6 @@ hr
         font-size: 1.5em
 
 .feature-list
-    background: $light-grey
-    box-shadow: 0 2px 5px rgba(0,0,0,.2)
     border-radius: 3px
     margin: 20px
     padding: 20px
@@ -133,6 +124,7 @@ hr
     dt
         font-size: 1.2em
         margin-bottom: 10px
+        border-bottom: 2px solid $washed-blue
 
     dd
         margin-bottom: 10px
@@ -167,13 +159,13 @@ hr
         order: 2
 
     .coding-image
-        background-image: url('../img/panoramical_wireframe.jpg') !important
+        background-image: url('../img/code.jpg') !important
 
     .writing-image
-        background-image: url('../img/panoramical_balloons.jpg') !important
+        background-image: url('../img/writing.jpg') !important
 
     .teaching-image
-        background-image: url('../img/panoramical_line_lights.jpg') !important
+        background-image: url('../img/teaching.jpg') !important
 
 .project-card
     @extend .content-card

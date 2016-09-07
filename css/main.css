@@ -8,10 +8,6 @@ h2,
 h3 {
   font-family: "News Cycle", sans-serif; }
 
-hr {
-  height: 2px;
-  background: #4183D7; }
-
 .sidebar {
   background: #FFF;
   height: 100vh;
@@ -102,15 +98,14 @@ hr {
     font-size: 1.5em; }
 
 .feature-list {
-  background: #CECECE;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   margin: 20px;
   padding: 20px;
   width: 50%; }
   .feature-list dt {
     font-size: 1.2em;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4183D7; }
   .feature-list dd {
     margin-bottom: 10px; }
 
@@ -140,13 +135,13 @@ hr {
   order: 2; }
 
 .skills-card .coding-image {
-  background-image: url("../img/panoramical_wireframe.jpg") !important; }
+  background-image: url("../img/code.jpg") !important; }
 
 .skills-card .writing-image {
-  background-image: url("../img/panoramical_balloons.jpg") !important; }
+  background-image: url("../img/writing.jpg") !important; }
 
 .skills-card .teaching-image {
-  background-image: url("../img/panoramical_line_lights.jpg") !important; }
+  background-image: url("../img/teaching.jpg") !important; }
 
 .project-card {
   display: flex;
