@@ -140,13 +140,13 @@ hr {
   order: 2; }
 
 .skills-card .coding-image {
-  background-image: url("../img/panoramical_wireframe.jpg") !important; }
+  background-image: url("../img/code.jpg") !important; }
 
 .skills-card .writing-image {
-  background-image: url("../img/panoramical_balloons.jpg") !important; }
+  background-image: url("../img/writing.jpg") !important; }
 
 .skills-card .teaching-image {
-  background-image: url("../img/panoramical_line_lights.jpg") !important; }
+  background-image: url("../img/teaching.jpg") !important; }
 
 .project-card {
   display: flex;
