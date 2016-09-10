@@ -1,7 +1,7 @@
 // Hide content/project cards initially
 $('.first-card .glyphicon-sunglasses').show()
-$('.skills-card').hide()
-$('.broadsheet-card').hide()
+$('.skills').hide()
+$('.broadsheet').hide()
 
 // Animate sidebar links
 $('.sidebar-nav a').mouseover(function(e) {
