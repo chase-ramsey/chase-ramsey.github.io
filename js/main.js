@@ -1,5 +1,4 @@
 // Hide content/project cards initially
-$('.first-card .glyphicon-sunglasses').show()
 $('.skills').hide()
 $('.broadsheet').hide()
 
@@ -17,22 +16,22 @@ $('.sidebar-nav a').mouseout(function(e) {
 })
 
 // Hide/show content-cards when clicked in sidebar
-$current = $('.about-card')
+$current = $('.about')
 $currentLink = $('.first-card')
 
 $('.sidebar-nav a').click(function(e) {
-    $clicked = $(e.target);
-    if ($clicked.attr('show') !== 'none') {
-        if ($currentLink !== null) {
-            $currentLink.children('.glyphicon-sunglasses').fadeOut(150)
-        }
-        $clicked.children('.glyphicon-sunglasses').fadeIn(150)
-        $currentLink = $clicked
-        next = $clicked.attr('show');
-        if ($current !== null) {
-            $current.slideUp(250);
-        }
-        $(next).slideDown(250);
-        $current = $(next);
+    $currentLink.removeClass('active');
+    $currentLink = $(e.target);
+    $currentLink.addClass('active');
+    next = $currentLink.attr('show');
+    if ($current !== null) {
+        $current.slideUp(250);
     }
+    $(next).slideDown(250);
+    $current = $(next);
+})
+
+$('.dropdown').click(function(e) {
+    e.preventDefault();
+    $('.contact-links').fadeToggle(200);
 })
