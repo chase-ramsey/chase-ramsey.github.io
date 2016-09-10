@@ -2,7 +2,6 @@
 $('.first-card .glyphicon-sunglasses').show()
 $('.skills-card').hide()
 $('.broadsheet-card').hide()
-$('.other-card').hide()
 
 // Animate sidebar links
 $('.sidebar-nav a').mouseover(function(e) {
